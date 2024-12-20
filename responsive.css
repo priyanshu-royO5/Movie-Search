@@ -1,0 +1,32 @@
+/* Responsive Code */
+@media screen and (max-width:950px) {
+  .movie_cont{
+    flex-direction: column;
+  }
+
+  .movie_poster img{
+    width: 100%;
+    height: fit-content;
+    margin-right: 0;
+    padding: 0 5rem;
+  }
+
+  .movie_info{
+    padding: 0 5rem;
+  }
+}
+
+
+@media screen and (max-width:630px) {
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar .logo{
+    margin-top: 1rem;
+  }
+  .navbar div{
+    margin-bottom: 1rem;
+  }
+}
